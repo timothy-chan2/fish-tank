@@ -1,0 +1,4 @@
+class BiteFish extends Fish {
+
+
+}
