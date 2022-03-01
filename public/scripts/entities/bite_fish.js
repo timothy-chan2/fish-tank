@@ -6,7 +6,9 @@ class BiteFish extends Fish {
   }
 
   onClick(event) {
-    this.height = this.height * 2;
-    this.width = this.width * 2;
+    if (this.height < 240) {
+      this.height = this.height * 2;
+      this.width = this.width * 2;
+    }
   }
 }
